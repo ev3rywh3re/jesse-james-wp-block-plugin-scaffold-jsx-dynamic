@@ -23,9 +23,12 @@ From: https://modularwp.com/how-to-build-gutenberg-blocks-jsx/
 npm install
 
 ### Compile commands:
-npm run dev - run in development mode
-npm run build - build production files
+- npm run dev - run in development mode
+- npm run build - build production files
 
 
+### FIX Notes
+
+npm install copy-webpack-plugin --save-dev --legacy-peer-deps
 
 

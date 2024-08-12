@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Dyn Jess
+ * Plugin Name:       Jess's WP block scaffolded
  * Description:       Jess's WP block scaffolded tools Block JSX.
  * Requires at least: 6.1
  * Requires PHP:      7.0
@@ -25,8 +25,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
 function create_block_dyn_jess_block_init() {
-	register_block_type( __DIR__ . '/dist', array(
-        'name' => 'dyn-jess/my-custom-block', // Add your plugin's namespace
+	register_block_type( __DIR__ . '/build', array(
+        'name' => 'dyn-jess/jess-block', // Add your plugin's namespace
     ));
 }
 add_action( 'init', 'create_block_dyn_jess_block_init' );
