@@ -10,19 +10,21 @@ This is a basic WordPress plugin project to provide some basic scaffolding for d
 
 This is mostly copied from my current experiments. So it may not be edited... You are warned.
 
-!!! Clean new start
-
 From: https://modularwp.com/how-to-build-gutenberg-blocks-jsx/
 
-Custom package.json
+### Custom build files:
+
+- webpack.config.js
+- .babelrc 
+- package.json                    
+- package-lock.json
+
+### Install dependencies:
 npm install
 
-Custom build files:
-
-
-Final commands:
-npm run dev
-npm run build
+### Compile commands:
+npm run dev - run in development mode
+npm run build - build production files
 
 
 
